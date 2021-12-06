@@ -1,4 +1,9 @@
-const changeName = document.querySelector('h1').textContent = 'txt'
+const changeName = document.querySelector('h1')
+
+
+changeName.textContent += ' nick:'
+
+changeName.textContent += ' Alvin'
 
 // innerText -> Retorna somente o texto, sem formatações ou elementos html.
 
